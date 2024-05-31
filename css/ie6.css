@@ -1,0 +1,20 @@
+#logo {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/logo-title.png'); /* IE6 */
+	background-image: none; /* IE6 */
+}
+#nav li.selected .first {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/left-circle.png");	background-image: none; /* IE6 */
+}
+#nav li.selected .third {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/right-circle.png");background-image: none; /* IE6 */
+}
+.content-sub .descritption img,.content-sub .descritption div.img {	
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/lan.png");background-image: none; /* IE6 */
+}
+.pre {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/pre.png");background-image: none; /* IE6 */
+}
+
+.next {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="images/next.png");background-image: none; /* IE6 */
+}

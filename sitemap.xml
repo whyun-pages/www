@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.sitemaps.org/schemas/sitemap-video/1.1">
+  <url> 
+    <loc>http://www.whyun.com/index.html</loc> 
+    <image:image>
+		<image:loc>http://whyun.com/images/bluehandle-img.png</image:loc>		
+    </image:image> 
+	<image:image>		
+		<image:loc>http://whyun.com/images/cnmap.png</image:loc>		
+    </image:image> 
+	<image:image>
+		<image:loc>http://whyun.com/images/ndes.png</image:loc>
+    </image:image> 
+	<priority>1.0</priority>
+	<changefreq>monthly</changefreq>
+  </url>
+  <url> 
+    <loc>http://tq.whyun.com/index.html</loc>    
+	<priority>0.9</priority>
+	<changefreq>monthly</changefreq>
+  </url>
+  <url> 
+    <loc>http://baiducnmap.whyun.com/index.html</loc>    
+	<priority>0.9</priority>
+	<changefreq>monthly</changefreq>
+  </url>
+  <url> 
+    <loc>http://jsreg.whyun.com/index.html</loc>    
+	<priority>0.9</priority>
+	<changefreq>monthly</changefreq>
+  </url>
+</urlset>

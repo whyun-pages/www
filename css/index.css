@@ -1,0 +1,271 @@
+body {
+	background:#E9C324;
+	margin:0;
+	height:100%;
+	font-family:  "Microsoft YaHei",Arial,Helvetica,sans-serif,"黑体";
+}
+
+.smallFont {
+	color: #0C4A83;	
+	font-size: 12px;
+}
+
+.caption {
+	font-size:16px;
+	font-weight:bold;
+}
+
+.italic {
+	font-style:italic; 
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+.border {
+	/*border:1px solid;*/
+}
+
+.container {
+	margin:auto;
+	width:950px;
+	position:relative;	
+}
+
+.header {	
+	height:125px;	
+}
+
+ #logo {
+	width:300px;
+	height:100%;
+	background:url("../images/logo-title.png") no-repeat;
+ }
+
+#nav ul{
+	margin-top:50px;
+	list-style-type: none;
+	width:500px;
+	height:25px;
+  }
+
+#nav li {
+	display: inline;
+	cursor:pointer;
+	color:#ffffff;
+	font-weight:bold;
+	font-size:14px;
+	margin-left:20px;
+	width:60px;
+	height:100%;
+  }
+
+ #nav li div {
+	padding-top:2px;
+	height:100%;
+ }
+
+#nav li.selected div {
+	background-color:#0D938C;
+}
+
+ #nav li.selected .space {
+	background-color:#E9C324;
+ }
+
+#nav li .first, #nav li .third {
+		width:12px;
+ }
+
+ #nav li .second {
+	height:23px;
+ }
+
+ #nav li .space {
+	width:20px;
+	background-color:#E9C324;
+ }
+
+#nav li.selected .first {
+	background:url("../images/left-circle.png") no-repeat;	
+}
+
+#nav li.selected .third {
+	width:12px;
+	background:url("../images/right-circle.png") no-repeat;
+}
+
+.content-sub {
+	position:relative;	
+	width:400%;
+	height:100%;
+}
+.content {
+	height:370px;
+	width:900px;
+	margin:auto;
+	overflow:hidden;
+	position:relative;
+}
+.content-sub section {
+	width:25%;
+	height:100%;	
+}
+
+.content-sub .imgInfo,.content-sub .descritption {
+	height:100%;	
+	text-align:left;
+	float:left;
+}
+
+.content-sub .imgInfo{
+	width:59%;
+}
+.content-sub .descritption {
+	width:40%;
+}
+
+.content-sub .fullDes {
+	width:90%;
+	margin:auto;
+	height:90%;
+}
+
+.content-sub .imgInfo img{
+	padding-left:10px;
+	padding-top:20px;
+}
+
+.content-sub .descritption p,.content-sub .fullDes p {
+	padding-bottom:10px;
+	text-indent: 2em;
+	word-break:break-all;
+	font-size:14px;
+}
+
+.content-sub .descritption img,.content-sub .descritption div.img {
+	width:204px;
+	height:50px;
+	margin-left:20px;
+	margin-bottom:10px;	
+	background:url("../images/lan.png") no-repeat;
+	text-align:center;
+	cursor:pointer;
+}
+
+.content-sub .descritption div.img a {
+	text-decoration:none;
+}
+
+.content-sub .descritption div.img span {
+	font-size:24px;
+	line-height:45px;
+	color:#ffffff;	
+}
+
+.footer {
+	bottom:0;
+	height:120px;
+	text-align:center;
+}
+.footer .left {
+	margin-top:10px;
+}
+
+.pre,.next {
+	width:25px;
+	height:25px;
+	margin-top:188px;
+	cursor:pointer;
+}
+
+.pre {
+	background:url("../images/pre.png") no-repeat;
+}
+
+.next {
+	background:url("../images/next.png") no-repeat;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+/*底部*/
+.link-area{
+    width: 100%;
+    background: #2a2a2a;
+	clear:both;
+	position:absolute;
+	bottom:0;
+}
+.links{
+    margin: 0 auto;
+    width: 950px;
+    padding-top: 20px;
+    height: 120px;
+}
+.links ul{
+    float: left;
+    width:20%;
+	height:100%;
+	padding:0;
+	margin: 0;
+	list-style-type:none;
+}
+.links ul li{
+    line-height: 23px;    
+}
+.links ul li a,#ispCode a {
+	text-decoration:none;
+	color: #929292;
+}
+
+.links ul li.first-child{
+    font-size: 16px;
+    color: #0094d0;
+    margin-bottom: 26px;
+}
+
+.social-media a.qq {
+	background-position: 0 0;
+}
+
+.social-media a.sina {
+	background-position: -39px 0;
+	width: 22px;
+}
+.social-media a.qq:hover {
+	background-position: 0 -28px;
+}
+.social-media a.sina:hover {
+	background-position: -39px -28px;
+	width: 22px;
+}
+.social-media a {
+	background: rgba(0, 0, 0, 0) url("../images/sns.png") no-repeat scroll 0 0;
+	display: inline-block;
+	float: left;
+	height: 20px;
+	margin: 10px 5px;
+	width: 20px;
+}
+
+#ispCode {
+	width:100%;margin:0 auto;height:20px;text-align:center;
+}	
+#ispCode p {
+	margin:0;
+}

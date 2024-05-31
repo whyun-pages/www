@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /*.asp$
+
+Sitemap: http://www.whyun.com/sitemap.xml
